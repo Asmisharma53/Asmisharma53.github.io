@@ -140,10 +140,17 @@ h3 { color: var(--navy); margin: 0 0 10px; line-height: 1.25; }
   gap: 70px;
 }
 .content-block p {
-    font-size: 1.05rem;
-    color: #333;
-    text-align: justify;
-    line-height: 1.8;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #111827;
+  text-align: justify;
+  margin-bottom: 1.2rem;
+}
+
+.content-block p:first-child {
+  font-size: 1.05rem;
+  color: #111827;
 }
 .info-card, .publication-list article, .timeline div, .contact-grid div, .cv-banner {
   background: rgba(255,255,255,0.86);
